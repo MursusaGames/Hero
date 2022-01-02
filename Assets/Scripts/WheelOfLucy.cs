@@ -7,6 +7,7 @@ public class WheelOfLucy : MonoBehaviour
 {
     public event Action<string> winField;
     [SerializeField] private GameObject pic;
+    [SerializeField] private GameObject wheelGO;
     [SerializeField] private List<GameObject> fields = new List<GameObject>(8);    
 
     private GameObject currentField;
@@ -28,6 +29,11 @@ public class WheelOfLucy : MonoBehaviour
         rg.AddTorque(Vector3.forward * force, ForceMode.Impulse);
         Invoke(nameof(RotateOn), 2f);
         Invoke(nameof(CheckResult), 7f);
+        Invoke(nameof(OffState), 8f);
+    }
+    private void OffState()
+    {
+        wheelGO.SetActive(false);
     }
 
     private void RotateOn()
