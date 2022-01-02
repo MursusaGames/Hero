@@ -7833,7 +7833,7 @@ GameObject:
   - component: {fileID: 6210472715927294537}
   - component: {fileID: 86115393869487156}
   m_Layer: 5
-  m_Name: Field_2`
+  m_Name: crystal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8228,7 +8228,7 @@ GameObject:
   - component: {fileID: 9202345397400489885}
   - component: {fileID: 2115473043800730990}
   m_Layer: 5
-  m_Name: Field_4
+  m_Name: coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8288,7 +8288,7 @@ GameObject:
   - component: {fileID: 2355782622347091235}
   - component: {fileID: 7792924943135404607}
   m_Layer: 5
-  m_Name: Field_5
+  m_Name: coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8715,7 +8715,7 @@ GameObject:
   - component: {fileID: 7122296386724134170}
   - component: {fileID: 5990525817978855276}
   m_Layer: 5
-  m_Name: Field_8
+  m_Name: coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9065,7 +9065,7 @@ GameObject:
   - component: {fileID: 209037971150205642}
   - component: {fileID: 5335841878935612230}
   m_Layer: 5
-  m_Name: Field_7
+  m_Name: heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9175,7 +9175,7 @@ GameObject:
   - component: {fileID: 3091895017733903110}
   - component: {fileID: 377793670786764596}
   m_Layer: 5
-  m_Name: Field_3
+  m_Name: heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10339,7 +10339,7 @@ GameObject:
   - component: {fileID: 4974905797616121973}
   - component: {fileID: 4134341343249633004}
   m_Layer: 5
-  m_Name: Field_1
+  m_Name: coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10506,7 +10506,7 @@ GameObject:
   - component: {fileID: 5262597033176985499}
   - component: {fileID: 3526384232617599033}
   m_Layer: 5
-  m_Name: Field_6
+  m_Name: crystal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
