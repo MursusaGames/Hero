@@ -14,6 +14,7 @@ public class WheelOfLucy : MonoBehaviour
     private float force;
     private Rigidbody rg;
     private bool isRotate;
+    private bool isCheck;
     private float rgPosZ;
     private float rgPosZDelta;
 
@@ -26,28 +27,34 @@ public class WheelOfLucy : MonoBehaviour
         force = UnityEngine.Random.Range(4f, 12f);
         rg.AddTorque(Vector3.forward * force, ForceMode.Impulse);
         Invoke(nameof(RotateOn), 2f);
+        Invoke(nameof(CheckResult), 7f);
     }
 
     private void RotateOn()
     {
         isRotate = true;
     }
+    private void CheckResult()
+    {
+        isCheck = true;
+    }
 
     private void WinField()
     {
-        winField?.Invoke(currentField.transform.GetChild(0).name);
-        Debug.Log(currentField.transform.GetChild(0).name);
+        winField?.Invoke(currentField.transform.name);
+        Debug.Log(currentField.transform.name);
     }
 
     
-    private void FixedUpdate()
+    private void Update()
     {
         if (isRotate)
         {
-            rgPosZDelta = rgPosZ - rg.rotation.z;
-            if (rgPosZDelta == 0)
+            
+            if (isCheck)
             {
                 isRotate = false;
+                isCheck = false;
                 dystance = 100;
                 for (int i = 0; i < fields.Count; i++)
                 {
@@ -61,7 +68,7 @@ public class WheelOfLucy : MonoBehaviour
                 WinField();
 
             }
-            rgPosZ = rg.rotation.z;
+            
         }
         
     }

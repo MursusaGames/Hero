@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{679D9F69-3EA3-6C88-2A5D-3CFF9F2164AF}</ProjectGuid>
+    <ProjectGuid>{D2C27BF1-FACD-A540-9264-A4EF2ECA109B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -887,11 +887,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{74341C26-8CFD-3EFD-37AE-8903F7561214}</Project>
+      <Project>{C4F7C215-3DA1-BA5A-9DEC-324429A1457B}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="UniRx.csproj">
-      <Project>{554B6996-7453-52FC-C347-0448DBB5D930}</Project>
+      <Project>{D5B35DBA-1CA2-7BAB-1E52-093F77179E95}</Project>
       <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{554B6996-7453-52FC-C347-0448DBB5D930}</ProjectGuid>
+    <ProjectGuid>{D5B35DBA-1CA2-7BAB-1E52-093F77179E95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UniRx</AssemblyName>
